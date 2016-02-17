@@ -18,6 +18,9 @@ body {
     right: 0px;
     z-index:1;
 }
+#About {
+    display:none;
+}
 .sideNav {
     margin-top: 90px;
     
