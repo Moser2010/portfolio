@@ -1,12 +1,12 @@
 $(document).ready(function() {
     $(".About").click(function() {
-        $("#bgvid, .position").toggle();
-        $("#About").toggle('slide',{ direction: "right" });
+        $("#bgvid, .position").css('display','none');
+        $("#About").css('display','block');
         
         
     });
     $('.Home').click(function(){
-        $("#bgvid, .position").toggle('slide');
+        $("#bgvid, .position").css('display','block');
         $('#About').css('display','none')
         $("#bgvid")[0].autoplay = true;
     });
