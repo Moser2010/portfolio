@@ -1,14 +1,33 @@
-$(document).ready(function(){
-    $("li a").click(function(){
-        $("#About").toggle(function(){
-         $("About").css("display","block");   
-        });
+$(document).ready(function() {
+    $(".About").click(function() {
+        $("#bgvid, .position").toggle();
+        $("#About").toggle('slide',{ direction: "right" });
+        
+        
+    });
+    $('.Home').click(function(){
+        $("#bgvid, .position").toggle('slide');
+        $('#About').css('display','none')
+        $("#bgvid")[0].autoplay = true;
+    });
+    $(".eduButton").click(function(){
+        $('.me').css('display','none')
+        $('.edu').css('display','block')
+        $('.exp').css('display','none')
+    });
+    $(".meButton").click(function(){
+        $('.me').css('display','block')
+        $('.edu').css('display','none')
+        $('.exp').css('display','none')
+    });
+    $(".expButton").click(function(){
+        $('.me').css('display','none')
+        $('.edu').css('display','none')
+        $('.exp').css('display','block')
     });
 });
-$(document).ready(function(){
+$(document).ready(function() {
     $("#bgvid")[0].autoplay = true;
 })
 
-    
- 
-         
+
