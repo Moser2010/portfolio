@@ -277,10 +277,16 @@ footer {
     .social:before {
         display:none;
     }
+    .social {
+        display:none;
+    }
     .box:before {
         display:none;
     }
     .padding {
         padding:0px;
+    }
+    #nav1 {
+        width:100%;
     }
 }
