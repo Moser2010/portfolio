@@ -2,12 +2,14 @@ $(document).ready(function() {
     $(".About").click(function() {
         $("#bgvid, .position").css('display', 'none');
         $("#About").css('display', 'block');
+        $('.videoBG').css('display', 'none')
 
 
     });
     $('.Home').click(function() {
         $("#bgvid, .position").css('display', 'block');
-        $('#About').css('display', 'none')
+        $('#About').css('display', 'none');
+        $('.videoBG').css('display', 'block')
         $("#bgvid")[0].autoplay = true;
     });
     $(".eduButton").click(function() {
