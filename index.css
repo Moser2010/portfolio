@@ -289,4 +289,7 @@ footer {
     #nav1 {
         width:100%;
     }
+    .me div {
+        padding: 20px 15% 7% 20%;
+    }
 }
