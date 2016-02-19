@@ -241,7 +241,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 965px) {
     video {
         height: 500px;
         display: none;
@@ -258,15 +258,26 @@ footer {
     .box {
         width: 100%;
     }
-    .social {
-        width: 100%;
-    }
+
     .social:before {
         right: 93.5%;
     }
     .videoBG {
         width: 100%;
         display: block;
+    }
+    .sideNav {
+        margin-left: -30px;
+    }
+    .me div {
+        padding: 20px 15% 7% 20%;
+    }
+    .sideNav {
+        margin-left: -30px;
+    }
+    .edu .format {
+        padding: 20px 15% 7% 20%;
+        text-align:center;
     }
 }
 
