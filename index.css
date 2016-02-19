@@ -41,6 +41,7 @@ body {
     height: 100%;
     background-color: orange;
     display: none;
+    
 }
 
 .edu .format {
@@ -55,6 +56,7 @@ body {
     height: 100%;
     background-color: skyblue;
     display: none;
+    overflow: scroll;
 }
 
 .works {
@@ -268,7 +270,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     footer h3 {
         font-size: .7em;
     }
@@ -298,5 +300,9 @@ footer {
     }
     .sideNav {
         margin-left: -30px;
+    }
+    .edu .format {
+        padding: 20px 15% 7% 20%;
+        text-align:center;
     }
 }
