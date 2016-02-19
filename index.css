@@ -124,8 +124,8 @@ li {
     margin-left: 3%;
 }
 
-section {
-    margin: 0px;
+.marginBottom {
+    margin-bottom: 2%;
 }
 
 video {
@@ -195,7 +195,9 @@ video {
     position: relative;
     border: solid 1px silver;
 }
-
+.videoBG {
+        display:none;
+    }
 .padding {
     padding-left: 25%;
 }
@@ -219,11 +221,63 @@ video {
 footer {
     background-color: #191919;
     width: 100%;
-    height: 290px;
     color: white;
-    margin: -24px 0px;
+    margin-top:10%;
 }
 
 .thumb {
     height: 10%;
+}
+
+@media only screen and (max-width: 1250px) {
+    .font {
+        font-size:2.5em;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    video {
+        height:500px;
+        display:none;
+        
+    }
+    .font {
+        font-size: 3em;
+    }
+    .font2 {
+        font-size:1em;
+    }
+    nav ul li {
+        font-size:.7em;
+    }
+    .box {
+        width:100%;
+    }
+    .social {
+        width:100%;
+    }
+    .social:before{
+        right:93.5%;
+    }
+    .videoBG {
+        width:100%;
+        display:block;
+    }
+}
+@media only screen and (max-width: 500px) {
+    footer h3{
+        font-size:.5em;
+    }
+    .font {
+        font-size: 2em;
+    }
+    .font2 {
+        font-size:1em;
+    }
+    .social:before {
+        display:none;
+    }
+    .box:before {
+        display:none;
+    }
 }
