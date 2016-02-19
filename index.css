@@ -56,9 +56,11 @@ body {
     background-color: skyblue;
     display: none;
 }
+
 .works {
-    margin-left:5%;
+    margin-left: 5%;
 }
+
 .exp div {
     padding: 1px;
     color: white;
@@ -195,9 +197,11 @@ video {
     position: relative;
     border: solid 1px silver;
 }
+
 .videoBG {
-        display:none;
-    }
+    display: none;
+}
+
 .padding {
     padding-left: 25%;
 }
@@ -222,7 +226,7 @@ footer {
     background-color: #191919;
     width: 100%;
     color: white;
-    margin-top:10%;
+    margin-top: 10%;
 }
 
 .thumb {
@@ -231,65 +235,68 @@ footer {
 
 @media only screen and (max-width: 1250px) {
     .font {
-        font-size:2.5em;
+        font-size: 2.5em;
     }
 }
 
 @media only screen and (max-width: 850px) {
     video {
-        height:500px;
-        display:none;
-        
+        height: 500px;
+        display: none;
     }
     .font {
         font-size: 3em;
     }
     .font2 {
-        font-size:1em;
+        font-size: 1em;
     }
     nav ul li {
-        font-size:.7em;
+        font-size: .7em;
     }
     .box {
-        width:100%;
+        width: 100%;
     }
     .social {
-        width:100%;
+        width: 100%;
     }
-    .social:before{
-        right:93.5%;
+    .social:before {
+        right: 93.5%;
     }
     .videoBG {
-        width:100%;
-        display:block;
+        width: 100%;
+        display: block;
     }
 }
+
 @media only screen and (max-width: 500px) {
-    footer h3{
-        font-size:.7em;
+    footer h3 {
+        font-size: .7em;
     }
     .font {
         font-size: 2em;
     }
     .font2 {
-        font-size:1em;
+        font-size: 1em;
     }
     .social:before {
-        display:none;
+        display: none;
     }
     .social {
-        display:none;
+        display: none;
     }
     .box:before {
-        display:none;
+        display: none;
     }
     .padding {
-        padding:0px;
+        padding: 0px;
     }
     #nav1 {
-        width:100%;
+        width: 100%;
     }
     .me div {
         padding: 20px 15% 7% 20%;
+    }
+    .sideNav {
+        margin-left: -30px;
     }
 }
