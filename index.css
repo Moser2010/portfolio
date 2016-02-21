@@ -241,6 +241,9 @@ footer {
     background-color: gray;
     padding: 20px 15% 7% 35%;
 }
+li {
+    list-style-type:none;
+}
 .formAdj {
     margin-top:10%;
 }
