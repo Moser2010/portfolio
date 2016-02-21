@@ -41,7 +41,6 @@ body {
     height: 100%;
     background-color: orange;
     display: none;
-    
 }
 
 .edu .format {
@@ -119,7 +118,7 @@ ul {
     margin-top: 0px;
 }
 
-li {
+nav ul li{
     list-style-type: none;
     float: left;
 }
@@ -235,6 +234,21 @@ footer {
     height: 10%;
 }
 
+.contactPage {
+    display:none;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    padding: 20px 15% 7% 35%;
+}
+.formAdj {
+    margin-top:10%;
+}
+form {
+    color:white;
+    list-style-type:none;
+}
+
 @media only screen and (max-width: 1250px) {
     .font {
         font-size: 2.5em;
@@ -258,7 +272,6 @@ footer {
     .box {
         width: 100%;
     }
-
     .social:before {
         right: 93.5%;
     }
@@ -277,7 +290,7 @@ footer {
     }
     .edu .format {
         padding: 20px 15% 7% 20%;
-        text-align:center;
+        text-align: center;
     }
 }
 
@@ -314,6 +327,9 @@ footer {
     }
     .edu .format {
         padding: 20px 15% 7% 20%;
-        text-align:center;
+        text-align: center;
+    }
+    .maring {
+        margin-top: 20px;
     }
 }
